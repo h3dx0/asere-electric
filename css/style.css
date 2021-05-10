@@ -96,7 +96,7 @@
 
 
 body {
-	font-size:15px;
+	font-size:16px;
 	color:#777777;
 	line-height:1.8em;
 	font-weight:400;
@@ -2367,4 +2367,10 @@ ul,li{
 #contact-google-map {
   height: 400px;
   width: 100%;
+}
+.text-orange {
+	color:#ff6600;
+}
+.mb-5 {
+	margin-bottom: 35px;
 }
