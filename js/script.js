@@ -600,7 +600,6 @@
 		// add your functions
 		(function ($) {
 			revolutionSliderActiver();
-			handlePreloader();
 			accordion();
 		})(jQuery);
 	});
