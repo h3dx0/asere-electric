@@ -8,142 +8,26 @@ layout: base
             <div class="row">
                 <div class="postcol-xs-12">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="item-holder">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="single-blog.html"><img src="images/blog/4.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="date-box text-center">
-                                        <h5>25</h5>
-                                        <span>may</span>
+                        {% for post in site.posts %}
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="item-holder">
+                                    <div class="image-box">
+                                        <figure>
+                                            <a href="{{post.url}}"><img src="images/blog/4.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="date-box text-center">
+                                            <h5>{{post.date|date: "%d"}}</h5>
+                                            <span>{{post.date|date: "%b"}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-text">
+                                        <a href="{{post.url}}"><h6>{{post.title}}</h6></a>
+                                        <p>{{post.excerpt}}</p>                                        
                                     </div>
                                 </div>
-                                <div class="content-text">
-                                    <a href="single-blog.html"><h6>Aliquam facilisis orci tempor</h6></a>
-                                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.</p>
-                                    <ul class="blog-info">
-                                        <li><i class="fa fa-heart-o" aria-hidden="true"></i>350 Likes</li>
-                                        <li><i class="fa fa-comments-o" aria-hidden="true"></i>30 Comnts</li>
-                                    </ul>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="item-holder">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="single-blog.html"><img src="images/blog/5.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="date-box text-center">
-                                        <h5>25</h5>
-                                        <span>may</span>
-                                    </div>
-                                </div>
-                                <div class="content-text">
-                                    <a href="single-blog.html"><h6>Enim euismod nulla convallis</h6></a>
-                                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.</p>
-                                    <ul class="blog-info">
-                                        <li><i class="fa fa-heart-o" aria-hidden="true"></i>350 Likes</li>
-                                        <li><i class="fa fa-comments-o" aria-hidden="true"></i>30 Comnts</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="item-holder">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="single-blog.html"><img src="images/blog/6.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="date-box text-center">
-                                        <h5>25</h5>
-                                        <span>may</span>
-                                    </div>
-                                </div>
-                                <div class="content-text">
-                                    <a href="single-blog.html"><h6>Quis nisl posuere vulputate</h6></a>
-                                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.</p>
-                                    <ul class="blog-info">
-                                        <li><i class="fa fa-heart-o" aria-hidden="true"></i>350 Likes</li>
-                                        <li><i class="fa fa-comments-o" aria-hidden="true"></i>30 Comnts</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="item-holder">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="single-blog.html"><img src="images/blog/7.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="date-box text-center">
-                                        <h5>25</h5>
-                                        <span>may</span>
-                                    </div>
-                                </div>
-                                <div class="content-text">
-                                    <a href="single-blog.html"><h6>Quis nisl posuere vulputate</h6></a>
-                                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.</p>
-                                    <ul class="blog-info">
-                                        <li><i class="fa fa-heart-o" aria-hidden="true"></i>350 Likes</li>
-                                        <li><i class="fa fa-comments-o" aria-hidden="true"></i>30 Comnts</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="item-holder">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="single-blog.html"><img src="images/blog/8.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="date-box text-center">
-                                        <h5>25</h5>
-                                        <span>may</span>
-                                    </div>
-                                </div>
-                                <div class="content-text">
-                                    <a href="single-blog.html"><h6>Quis nisl posuere vulputate</h6></a>
-                                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.</p>
-                                    <ul class="blog-info">
-                                        <li><i class="fa fa-heart-o" aria-hidden="true"></i>350 Likes</li>
-                                        <li><i class="fa fa-comments-o" aria-hidden="true"></i>30 Comnts</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="item-holder">
-                                <div class="image-box">
-                                    <figure>
-                                        <a href="single-blog.html"><img src="images/blog/9.jpg" alt=""></a>
-                                    </figure>
-                                    <div class="date-box text-center">
-                                        <h5>25</h5>
-                                        <span>may</span>
-                                    </div>
-                                </div>
-                                <div class="content-text">
-                                    <a href="single-blog.html"><h6>Quis nisl posuere vulputate</h6></a>
-                                    <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim.</p>
-                                    <ul class="blog-info">
-                                        <li><i class="fa fa-heart-o" aria-hidden="true"></i>350 Likes</li>
-                                        <li><i class="fa fa-comments-o" aria-hidden="true"></i>30 Comnts</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="styled-pagination">
-                        <ul>
-                            <li><a class="prev" href="#">prev</a></li>
-                            <li><a href="#" class="active">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a class="next" href="#">next</a></li>
-                        </ul>
-                    </div>
+                        {% endfor %}
+                    </div>                   
                 </div>
               
             </div>
