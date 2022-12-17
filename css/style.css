@@ -130,14 +130,14 @@ p{
 .section-title h3{
 	font-size: 38px;
 	line-height: 45px;
-	color: #222222;
+	color: white;
 	font-weight: 500;
 	text-transform: capitalize;
 	letter-spacing: .6px;
 	font-family: 'Roboto', sans-serif;
 }
 .section-title h3 span{
-	color: #ff6600;
+	color: #19553b;
 }
 .section-title p{
 	font-size: 16px;
@@ -215,8 +215,8 @@ ul,li{
 	color: #ffffff;
 	line-height: 28px;
 	padding: 10px 36px;
-	background: #ff6600;
-	border: 1px solid #ff6600;
+	background: #19553b;
+	border: 1px solid #19553b;
 	border-radius: 5px;
 	display: inline-block;
 	text-transform: uppercase;
@@ -228,8 +228,8 @@ ul,li{
 	-o-transition:all 0.5s ease;
 }
 .btn-style-one:hover{
-	color: #ff6600;
-	border: 1px solid #ff6600;
+	color: #19553b;
+	border: 1px solid #19553b;
 	background: transparent;
 	transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
@@ -272,7 +272,7 @@ ul,li{
 	height: 11px;
 	margin-left: 40px;
 	border-radius: 50%;
-	border: 2px solid #ff6600;
+	border: 2px solid #19553b;
 }
 .border-shep:after{
 	position: absolute;
@@ -338,8 +338,8 @@ ul,li{
 	line-height:40px;
 	width:45px;
 	height:45px;
-	border: 1px solid #ff6600;
-	background: #ff6600;
+	border: 1px solid #19553b;
+	background: #19553b;
 	text-align:center;
 	z-index:100;
 	cursor:pointer;
@@ -353,8 +353,8 @@ ul,li{
 }
 .scroll-to-top:hover {
     background: #ffffff;
-    color: #ff6600;
-    border-color: #ff6600;
+    color: #19553b;
+    border-color: #19553b;
     transition: all 500ms ease;
 }
 
@@ -390,7 +390,7 @@ ul,li{
 }
 .header-top .contact-links li i{
 	margin-right: 10px;
-	color: #ff6600;
+	color: #19553b;
 }
 
 /*** 
@@ -514,7 +514,7 @@ ul,li{
 .main-menu .navigation > li.current-menu-item > a{
 	position: relative;
 	opacity:1;
-	color: #ff6600;
+	color: #19553b;
 	transition:all 500ms ease;
 }
 .main-menu .navigation > li > ul{
@@ -550,7 +550,7 @@ ul,li{
 	font-size:14px;
 	text-transform:uppercase;
 	color: #ffffff;
-	background: #ff6600;
+	background: #19553b;
 	padding: 20px;
 	transition:all 500ms ease;
 	font-family: 'Roboto', sans-serif;
@@ -560,7 +560,7 @@ ul,li{
 	-o-transition:all 500ms ease;
 }
 .main-menu .navigation > li > ul > li > a:hover{
-	color: #ff6600;
+	color: #19553b;
 	background: #ffffff;
 	transition:all 500ms ease;
 }
@@ -601,8 +601,8 @@ ul,li{
   color: #ffffff;
   font-weight: 700!important;
   line-height: 28px!important;
-  border: 1px solid #ff6600;
-  background: #ff6600;
+  border: 1px solid #19553b;
+  background: #19553b;
   border-radius: 5px;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -614,7 +614,7 @@ ul,li{
 }
 .rev_slider_wrapper .slide-content-box .button a:hover{
   background: transparent;
-  color: #ff6600;
+  color: #19553b;
   transition: all 500ms ease !important;
   -moz-transition: all 500ms ease !important;
   -webkit-transition: all 500ms ease !important;
@@ -678,7 +678,7 @@ ul,li{
 	font-family: 'Roboto', sans-serif;
 }
 .service-form h6 span{
-	color: #ff6600;
+	color: #19553b;
 }
 .service-form form{
 	margin-top: 10px;
@@ -806,7 +806,7 @@ ul,li{
 	font-family: 'Roboto', sans-serif;
 }
 .caption-section h3 span{
-	color: #ff6600;
+	color: #32ab47;
 }
 .caption-section p{
 	color: #ffffff;
@@ -850,7 +850,7 @@ ul,li{
 }
 .service-section .item-holder .icon-box i:before{
 	font-size: 55px;
-	color: #ff6600;
+	color: #19553b;
 	margin-left: 0px;
 }
 .service-section .item-holder h6{
@@ -916,7 +916,7 @@ ul,li{
 	padding-bottom: 10px;
 }
 .testimonials-section .section-title h3 span{
-	color: #f76200;
+	color: #32ab41;
 }
 .testimonials-section .section-title p{
 	color: #ffffff;
@@ -954,7 +954,7 @@ ul,li{
 }
 .testimonials-section .inner-box .image-content span{
 	font-size: 14px;
-	color: #ff6600;
+	color: #19553b;
 	font-weight: 400;
 	line-height: 26px;
 	text-transform: capitalize;
@@ -1054,7 +1054,7 @@ ul,li{
 	height: 120px;
 	z-index: 1;
 	border-radius: 0px 0px 8px 8px;
-	background: #ff6600;
+	background: #19553b;
 	transition: all 500ms ease;
 }
 .team-section .image-holder .content-text:before{
@@ -1065,7 +1065,7 @@ ul,li{
 	top: -30px;
 	content: '';
 	z-index: -1;
-	background: #ff6600;
+	background: #19553b;
 	transform: skewY(5deg);
 	-webkit-transform: skewY(15deg);
 	transition: all 500ms ease;
@@ -1078,7 +1078,7 @@ ul,li{
     top: -15px;
     content: '';
     z-index: -1;
-    background: #ff6600;
+    background: #19553b;
     transform: skewY(5deg);
     -webkit-transform: skewY(-6deg);
     transition: all 500ms ease;
@@ -1172,7 +1172,7 @@ ul,li{
   position:relative;
   font-size: 40px;
   font-weight: 400;
-  color: #f76200;
+  color: #32ab41;
   padding-bottom: 10px;
   font-family: 'Roboto', sans-serif;
 }
@@ -1232,12 +1232,12 @@ ul,li{
 	height: 50px;
 	z-index: 1;
 	border-radius: 5px;
-	background: #ff6600;
+	background: #19553b;
 }
 .blog-section .item-holder .date-box:before{
 	position: absolute;
     content: '';
-    background: #ff6600;
+    background: #19553b;
     width: 40px;
     height: 40px;
     bottom: -11px;
@@ -1249,7 +1249,7 @@ ul,li{
 .blog-section .item-holder .date-box:after{
 	position: absolute;
     content: '';
-    background: #ff6600;
+    background: #19553b;
     width: 40px;
     height: 40px;
     bottom: -11px;
@@ -1292,7 +1292,7 @@ ul,li{
 	transition: all 500ms ease;
 }
 .blog-section .content-text h6:hover{
-	color: #ff6600;
+	color: #19553b;
 	transition: all 500ms ease;
 }
 .blog-section .content-text p{
@@ -1385,7 +1385,7 @@ ul,li{
 	position: relative;
 	background-size: cover;
 	z-index: 1;
-	background: rgba(50, 55, 71, 0.95);
+	background:#222
 }
 .footer-top{
 	padding-top: 82px;
@@ -1428,7 +1428,7 @@ ul,li{
 	transition:all 500ms ease;
 }
 .footer-top .menu-link li:hover a{
-	color: #ff6600;
+	color: #19553b;
 	transition:all 500ms ease;
 }
 .footer-top .menu-link li i{
@@ -1504,13 +1504,13 @@ ul,li{
 	transition:all 500ms ease;
 }
 .footer-bottom .social-links  li i:hover{
-	color: #ff6600;
+	color: #19553b;
 	background: #ffffff;
 	border: 2px solid #ffffff;
 	transition:all 500ms ease;
 }
 .footer-bottom .copyright-text a{
-	color: #ff6600;
+	color: #19553b;
 }
 
 
@@ -1526,7 +1526,7 @@ ul,li{
 	padding-top: 88px;
 	padding-bottom: 48px;
 	position: relative;
-	background: #f8f8fa;
+	background: #19553b;
 }
 .page-title .section-title{
 	float: left;
@@ -1540,7 +1540,7 @@ ul,li{
 	line-height: 30px;
 	font-weight: 400;
 	padding-right: 4px;
-	color: #ff6600;
+	color: #19553b;
 	text-transform: capitalize;
 	font-family: 'Roboto', sans-serif;
 	display: inline-block;
@@ -1553,7 +1553,7 @@ ul,li{
 	-o-transition:all 0.5s ease;
 }
 .page-title li a:hover{
-	color: #ff6600;
+	color: #19553b;
 	transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
 	-webkit-transition:all 0.5s ease;
@@ -1622,7 +1622,7 @@ ul,li{
 	margin-left: 20px;
 }
 .service-details .service-menu li:hover{
-	background: #ff6600;
+	background: #19553b;
 	transition:all 0.5s ease;
 }
 .service-details .service-menu li:hover a{
@@ -1700,7 +1700,7 @@ ul,li{
 }
 .gallery-section .filters li:hover,
 .gallery-section .filters li.active{
-	color: #ff6600;
+	color: #19553b;
 }
 .gallery-section{
 	padding-top: 90px;
@@ -1751,7 +1751,7 @@ ul,li{
     margin-left: 0px;
     padding: 20px;
     border-radius: 50%;
-    background: #ff6600;
+    background: #19553b;
 }
 .fancybox-skin {
     position: relative;
@@ -1796,7 +1796,7 @@ ul,li{
 	font-family: 'Roboto', sans-serif;
 }
 .error-section h3 span{
-	color: #ff6600;
+	color: #19553b;
 }
 .error-section .link-btn{
 	padding-bottom: 38px;
@@ -1851,7 +1851,7 @@ ul,li{
 }
 .accordion-box .accordion .accord-btn.active {
     border-bottom: 1px solid #e5e5e5;
-    background: #ff6600;
+    background: #19553b;
     transition: all 500ms ease;
 }
 .accordion-box .accordion .accord-btn.active h6 {
@@ -1914,7 +1914,7 @@ ul,li{
 	margin-left: 20px;
 }
 .blog-section.style-two .right-side .service-menu li:hover{
-	background: #ff6600;
+	background: #19553b;
 	transition:all 0.5s ease;
 }
 .blog-section.style-two .right-side .service-menu li:hover a{
@@ -1992,8 +1992,8 @@ ul,li{
 }
 .blog-section.style-two .right-side .popular-list li a:hover{
 	color: #ffffff;
-	background: #ff6600;
-	border: 1px solid #ff6600;
+	background: #19553b;
+	border: 1px solid #19553b;
 	transition:all 500ms ease;
 }
 
@@ -2046,8 +2046,8 @@ ul,li{
     border: 1px solid #e5e5e5;
 }
 .blog-section.style-three .social-links li a:hover i{
-	color: #ff6600;
-	border-color: #ff6600;
+	color: #19553b;
+	border-color: #19553b;
 	transition:all 500ms ease;
 }
 .blog-section.style-three .comments-area .section-title{
@@ -2099,7 +2099,7 @@ ul,li{
 	left: 150px;
 	font-size: 14px;
 	line-height: 26px;
-	color: #ff6600;
+	color: #19553b;
 	font-weight: 400;
 	text-transform: capitalize;
 	font-family: 'Montserrat', sans-serif;
@@ -2148,8 +2148,8 @@ ul,li{
 }
 .blog-section.style-three .form-area input:hover,
 .blog-section.style-three .form-area input:focus {
-    border-color: #ff6600;
-    color: #ff6600;
+    border-color: #19553b;
+    color: #19553b;
     transition: all 500ms ease;
 }
 .blog-section.style-three .form-area textarea {
@@ -2165,8 +2165,8 @@ ul,li{
 }
 .blog-section.style-three .form-area textarea:hover,
 .blog-section.style-three .form-area textarea:focus {
-    border-color: #ff6600;
-    color: #ff6600;
+    border-color: #19553b;
+    color: #19553b;
     transition: all 500ms ease;
 }
 .blog-section.style-three input::-webkit-input-placeholder {
@@ -2218,8 +2218,8 @@ ul,li{
 .styled-pagination li a:hover,
 .styled-pagination li a.active{
 	color:#ffffff;
-	border-color: #ff6600;
-	background: #ff6600;
+	border-color: #19553b;
+	background: #19553b;
 	transition:all 500ms ease;
 }
 
@@ -2257,7 +2257,7 @@ ul,li{
 	position: absolute;
 	left: 0px;
 	top: 3px;
-	color: #ff6600;
+	color: #19553b;
 }
 .contact-info .item strong{
 	font-size: 18px;
@@ -2342,13 +2342,13 @@ ul,li{
   padding: 10px 20px;
 }
 .contact-section .contact-form form input[type="text"]:focus{
-  border-color: #ff6600;        
+  border-color: #19553b;        
 }
 .contact-section .contact-form form input[type="email"]:focus{
-  border-color: #ff6600;        
+  border-color: #19553b;        
 }
 .contact-section .contact-form form textarea:focus{
-  border-color: #ff6600;    
+  border-color: #19553b;    
 }
 .contact-section .contact-form form button{
 	margin-top: -10px;
@@ -2368,8 +2368,11 @@ ul,li{
   width: 100%;
 }
 .text-orange {
-	color:#ff6600;
+	color:#19553b;
 }
 .mb-5 {
 	margin-bottom: 35px;
+}
+.text-gray{
+	color:#222222;
 }
